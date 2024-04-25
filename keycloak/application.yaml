@@ -10,7 +10,7 @@ spec:
     namespace: keycloak
     server: "https://kubernetes.default.svc"
   source:
-    repoURL: cnoe://keycloak/manifests
+    repoURL: cnoe://manifests
     targetRevision: HEAD
     path: "."
   project: default
